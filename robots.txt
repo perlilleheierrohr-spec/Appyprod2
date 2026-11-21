@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://appyprod.com/sitemap.xml

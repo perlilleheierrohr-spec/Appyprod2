@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RepCam: the rep counter that watches you train</title>
+<meta name="description" content="Put your phone on the floor and train. RepCam counts every rep out loud and coaches your form. 17 bodyweight exercises, no equipment.">
+<meta name="theme-color" content="#2233ff">
+<link rel="canonical" href="https://appyprod.com/">
+<meta property="og:title" content="RepCam: the rep counter that watches you train">
+<meta property="og:description" content="Put your phone on the floor and train. RepCam counts every rep out loud and coaches your form. 17 bodyweight exercises, no equipment.">
+<meta property="og:image" content="https://appyprod.com/assets/img/icon.png">
+<meta name="apple-itunes-app" content="app-name=RepCam">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<a class="sr" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="/"><i aria-hidden="true"></i>RepCam</a>
+    <nav aria-label="Main">
+      <a class="hide-sm" href="#how">How it works</a>
+      <a class="hide-sm" href="#moves">Exercises</a>
+      <a class="hide-sm" href="#pricing">Pricing</a>
+      <a href="/support/">Support</a>
+      <a class="store sm" href="https://apps.apple.com/" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M16.37 12.6c-.02-2.2 1.8-3.26 1.88-3.31-1.03-1.5-2.62-1.7-3.18-1.73-1.35-.14-2.64.8-3.33.8-.69 0-1.74-.78-2.87-.76-1.47.02-2.83.86-3.59 2.18-1.53 2.66-.39 6.6 1.1 8.75.73 1.05 1.6 2.24 2.73 2.2 1.1-.04 1.51-.71 2.84-.71 1.32 0 1.7.71 2.86.69 1.18-.02 1.93-1.07 2.65-2.13.84-1.22 1.18-2.4 1.2-2.46-.03-.01-2.3-.88-2.32-3.5zM14.2 6.13c.6-.73 1.01-1.75.9-2.76-.87.04-1.92.58-2.54 1.31-.56.64-1.05 1.67-.92 2.66.97.08 1.96-.49 2.56-1.21z"/></svg><span>Download</span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero" data-theme="dark">
+  <div class="wrap">
+    <div>
+      <h1><span class="ln"><span>Put the</span></span><span class="ln"><span>phone down.</span></span><span class="ln"><span>We'll count.</span></span></h1>
+      <p class="lead">RepCam follows your body through the front camera, counts every rep out loud and tells you how to make the next one better. Seventeen bodyweight exercises, no equipment.</p>
+      <div class="cta" id="download">
+        <a class="store " href="https://apps.apple.com/" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M16.37 12.6c-.02-2.2 1.8-3.26 1.88-3.31-1.03-1.5-2.62-1.7-3.18-1.73-1.35-.14-2.64.8-3.33.8-.69 0-1.74-.78-2.87-.76-1.47.02-2.83.86-3.59 2.18-1.53 2.66-.39 6.6 1.1 8.75.73 1.05 1.6 2.24 2.73 2.2 1.1-.04 1.51-.71 2.84-.71 1.32 0 1.7.71 2.86.69 1.18-.02 1.93-1.07 2.65-2.13.84-1.22 1.18-2.4 1.2-2.46-.03-.01-2.3-.88-2.32-3.5zM14.2 6.13c.6-.73 1.01-1.75.9-2.76-.87.04-1.92.58-2.54 1.31-.56.64-1.05 1.67-.92 2.66.97.08 1.96-.49 2.56-1.21z"/></svg><span><small>Download on the</small>App Store</span></a>
+        <a class="quiet" href="#how">See how it works</a>
+      </div>
+    </div>
+    <div class="stage" aria-label="Animated skeleton doing squats while the rep count goes up">
+      <div class="count" aria-hidden="true">00</div>
+      <p class="said" aria-hidden="true">RepCam says <b>zero</b></p>
+      <svg class="rig" viewBox="0 0 400 420" aria-hidden="true">
+        <defs>
+          <linearGradient id="beam" x1="1" y1="1" x2="0" y2="0">
+            <stop offset="0" stop-color="#fff" stop-opacity=".28"/>
+            <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <path class="beam" d="M388 380 L170 60 L170 388 Z"/>
+        <line class="floor" x1="20" y1="392" x2="396" y2="392"/>
+        <rect class="phone" x="380" y="354" width="10" height="36" rx="3" transform="rotate(-14 385 372)"/>
+        <line id="shin" class="bone"/><line id="thigh" class="bone"/><line id="torso" class="bone"/>
+        <line id="uarm" class="bone"/><line id="farm" class="bone"/>
+        <circle id="head" class="head" r="22"/>
+        <path id="arc" class="arc"/>
+        <circle id="ring" class="jt-ring" r="16"/>
+        <circle id="jAnkle" class="jt" r="0"/><circle id="jKnee" class="jt" r="0"/><circle id="jHip" class="jt" r="0"/>
+        <circle id="jShoulder" class="jt" r="0"/><circle id="jElbow" class="jt" r="0"/><circle id="jWrist" class="jt" r="0"/>
+      </svg>
+      <span class="readout angle">knee 176°</span>
+    </div>
+  </div>
+  <span class="scrollhint" aria-hidden="true"></span>
+</section>
+
+<section class="moves" id="moves" data-theme="light" aria-label="Exercises">
+  <div class="track">
+    <div class="pin">
+      <h2>Seventeen exercises. <span>Scroll through them.</span></h2>
+      <div class="wrap">
+        <div class="wheel"><ol>
+<li data-key="squats" data-group="Legs">Squats</li>
+<li data-key="pushUps" data-group="Upper body">Push-ups</li>
+<li data-key="lunges" data-group="Legs">Lunges</li>
+<li data-key="jumpingJacks" data-group="Cardio">Jumping jacks</li>
+<li data-key="sitUps" data-group="Core" class="pro">Sit-ups</li>
+<li data-key="burpees" data-group="Cardio" class="pro">Burpees</li>
+<li data-key="plank" data-group="Core" class="pro">Plank</li>
+<li data-key="pistolSquats" data-group="Legs" class="pro">Pistol squats</li>
+<li data-key="jumpPushUps" data-group="Upper body" class="pro">Jump push-ups</li>
+<li data-key="bicycleCrunches" data-group="Core" class="pro">Bicycle crunches</li>
+<li data-key="crossJumps" data-group="Cardio" class="pro">Cross jumps</li>
+<li data-key="frontRaises" data-group="Upper body" class="pro">Front raises</li>
+<li data-key="jogInPlace" data-group="Cardio" class="pro">Jog in place</li>
+<li data-key="squatJumps" data-group="Legs" class="pro">Squat jumps</li>
+<li data-key="frontKicks" data-group="Legs" class="pro">Front kicks</li>
+<li data-key="sideKicks" data-group="Cardio" class="pro">Side kicks</li>
+<li data-key="shadowBoxing" data-group="Upper body" class="pro">Shadow boxing</li>
+        </ol></div>
+        <div class="viewer">
+          <div class="disc"></div>
+          <img src="assets/move/squats.webp" alt="3D trainer doing squats" width="300" height="300">
+          <span class="ix">1 of 17</span>
+          <span class="tag">Legs, free</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="steps ink" id="how" data-theme="ink">
+  <div class="wrap">
+    <h2 class="rv">Three steps, then you only move.</h2>
+    <div class="stepwrap"><span class="rail" aria-hidden="true"><i></i></span>
+    <ol>
+      <li data-n="1">
+        <div><h3>Place your phone</h3><p>Lean it against a wall or a shoe on the floor. RepCam shows you exactly where to stand for each exercise.</p></div>
+        <figure><img src="assets/img/setup_squats.webp" alt="Phone on the floor with the trainer standing in front of it" loading="lazy" width="480" height="480"></figure>
+      </li>
+      <li data-n="2">
+        <div><h3>Move</h3><p>Apple's on-device body tracking follows your joints in real time. Nothing is filmed or saved.</p></div>
+        <figure><img src="assets/img/view_squats.webp" alt="The view from the phone camera, with the trainer in frame" loading="lazy" width="480" height="480"></figure>
+      </li>
+      <li data-n="3">
+        <div><h3>Hear the count</h3><p>Every rep is counted out loud and scored for range and tempo. After the set you get one tip to make the next one better.</p></div>
+        <figure class="voice" aria-hidden="true"><div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><q>Twelve. Go a little deeper.</q></figure>
+      </li>
+    </ol></div>
+  </div>
+</section>
+
+<section class="promise" data-theme="light">
+  <div class="wrap">
+    <p class="big">No account. No ads. No tracking. The camera picture is read on your iPhone and never saved or sent anywhere. Your workouts stay on your phone.</p>
+    <div class="after rv"><a href="/privacy/">Read the privacy policy</a><span>App Store privacy label: Data Not Collected</span></div>
+  </div>
+</section>
+
+<section class="price" id="pricing" data-theme="dark">
+  <div class="wrap">
+    <h2 class="rv">Start free. Go Pro when you want more.</h2>
+    <div class="plans">
+      <div class="plan">
+        <h3>Free</h3>
+        <div class="amt">0<small>kr, always</small></div>
+        <ul><li>Squats, push-ups, lunges and jumping jacks</li><li>Counting out loud</li><li>Streaks and history</li></ul>
+      </div>
+      <div class="plan pro">
+        <h3>Pro</h3>
+        <div class="switch" role="group" aria-label="Billing period"><span class="knob"></span><button type="button" data-plan="year" aria-pressed="true">Yearly</button><button type="button" data-plan="week" aria-pressed="false">Weekly</button></div>
+        <div class="amt" aria-hidden="true"><span class="roll"></span><span class="roll"></span><span class="roll"></span><small>kr a year</small></div>
+        <p class="sr" aria-live="polite">349 kr a year</p>
+        <ul><li>All 17 exercises</li><li>A plan that adapts to you</li><li>Form score and coach tips</li><li>Every training plan</li></ul>
+        <p class="note"></p>
+      </div>
+    </div>
+    <p class="fine">Prices in Norwegian kroner. The App Store shows the price in your local currency. Subscriptions renew automatically until you cancel in Settings, your name, Subscriptions. See the <a href="/terms/">terms of use</a>.</p>
+  </div>
+</section>
+
+<section class="faq" id="faq" data-theme="light">
+  <div class="wrap">
+    <h2 class="rv">Questions</h2>
+<details><summary>Is the camera recording me?</summary><div class="ans"><p>No. Each camera frame is analysed on your iPhone to find the position of your joints and then thrown away. No video or photo is ever saved or sent anywhere.</p></div></details>
+<details><summary>Do I need an account?</summary><div class="ans"><p>No. RepCam works without sign-up. Your Pro subscription is tied to your Apple ID, so it follows you to a new iPhone. Just tap Restore purchases.</p></div></details>
+<details><summary>Where do I put the phone?</summary><div class="ans"><p>On the floor, leaning against a wall or a shoe, about two to three metres away. Before each exercise RepCam shows a picture of where to stand.</p></div></details>
+<details><summary>Which iPhones are supported?</summary><div class="ans"><p>Any iPhone that runs the latest iOS. RepCam uses the front camera.</p></div></details>
+<details><summary>How do I cancel Pro?</summary><div class="ans"><p>Open Settings on your iPhone, tap your name, then Subscriptions and RepCam. You can also tap Manage subscription in RepCam's settings.</p></div></details>
+<details><summary>The count is off. What can I do?</summary><div class="ans"><p>Most miscounts come from the phone position. Tap the question mark during a set to see exactly where to put your phone, and make sure your whole body is in the picture. Still stuck? <a href="/support/">Contact support</a>.</p></div></details>
+  </div>
+</section>
+
+</main>
+<footer class="ink" data-theme="ink">
+  <div class="wrap">
+    <div class="foot">
+      <span>© 2026 Christian Lilleheier</span>
+      <nav aria-label="Footer">
+        <a href="/privacy/">Privacy policy</a>
+        <a href="/terms/">Terms of use</a>
+        <a href="/support/">Support</a>
+        <a href="mailto:RepoCamApp@gmail.com">RepoCamApp@gmail.com</a>
+      </nav>
+    </div>
+    <div class="giant" aria-hidden="true">RepCam<span>.</span></div>
+    <a class="store " href="https://apps.apple.com/" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M16.37 12.6c-.02-2.2 1.8-3.26 1.88-3.31-1.03-1.5-2.62-1.7-3.18-1.73-1.35-.14-2.64.8-3.33.8-.69 0-1.74-.78-2.87-.76-1.47.02-2.83.86-3.59 2.18-1.53 2.66-.39 6.6 1.1 8.75.73 1.05 1.6 2.24 2.73 2.2 1.1-.04 1.51-.71 2.84-.71 1.32 0 1.7.71 2.86.69 1.18-.02 1.93-1.07 2.65-2.13.84-1.22 1.18-2.4 1.2-2.46-.03-.01-2.3-.88-2.32-3.5zM14.2 6.13c.6-.73 1.01-1.75.9-2.76-.87.04-1.92.58-2.54 1.31-.56.64-1.05 1.67-.92 2.66.97.08 1.96-.49 2.56-1.21z"/></svg><span><small>Download on the</small>App Store</span></a>
+    <p class="credit">Some motion data comes from the CMU Graphics Lab Motion Capture Database (mocap.cs.cmu.edu), created with funding from NSF EIA-0196217. Other animations from Mixamo. Typeface: Archivo, SIL Open Font License.</p>
+  </div>
+</footer>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>
